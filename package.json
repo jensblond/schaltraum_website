@@ -1,0 +1,26 @@
+{
+  "name": "schaltraum",
+  "version": "0.0.1",
+  "description": "Website for Schaltraum",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jensblond/schaltraum_website.git"
+  },
+  "author": "Jens Hinrichs",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "slim": "0.0.4",
+    "grunt-slim": "~0.1.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-qunit": "~0.3.0",
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-compass": "~0.6.0"
+  }
+}

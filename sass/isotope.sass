@@ -1,0 +1,21 @@
+@import "compass/css3/transition"
+
+.isotope-item
+  z-index: 2
+
+.isotope-hidden.isotope-item
+  pointer-events: none
+  z-index: 1
+
+.isotope
+  +transition-duration(0.8s)
+  .isotope-item
+    +transition-duration(0.8s)
+    +transition-property(transform, opacity)
+  +transition-property(height, width)
+  &.no-transition
+    +transition-duration(0s)
+    .isotope-item
+      +transition-duration(0s)
+  .isotope-item.no-transition
+    +transition-duration(0s)
